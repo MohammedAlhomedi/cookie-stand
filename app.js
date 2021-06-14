@@ -55,13 +55,6 @@ let hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12am', '1pm', '2pm', '
     
           render: function () {
 
-        //     // Create a new Element
-        //     // add a text to the new element
-        //     // append the child to the parent
-        // let SalmonCookies = document.createElement('div')
-        // let articleElement = document.createElement('article');
-        // SalmonCookies.appendChild(articleElement);
-
         let h2 = document.createElement('h2');
         parentElement.appendChild(h2);
         h2.textContent = this.Location;
@@ -106,13 +99,6 @@ let hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12am', '1pm', '2pm', '
     
           render: function () {
 
-        //     // Create a new Element
-        //     // add a text to the new element
-        //     // append the child to the parent
-        // let SalmonCookies = document.createElement('div')
-        // let articleElement = document.createElement('article');
-        // SalmonCookies.appendChild(articleElement);
-
         let h2 = document.createElement('h2');
         parentElement.appendChild(h2);
         h2.textContent = this.Location;
@@ -155,13 +141,6 @@ let Dubai = {
     },
 
       render: function () {
-
-    //     // Create a new Element
-    //     // add a text to the new element
-    //     // append the child to the parent
-    // let SalmonCookies = document.createElement('div')
-    // let articleElement = document.createElement('article');
-    // SalmonCookies.appendChild(articleElement);
 
     let h2 = document.createElement('h2');
     parentElement.appendChild(h2);
@@ -206,12 +185,6 @@ let Paris = {
 
       render: function () {
 
-    //     // Create a new Element
-    //     // add a text to the new element
-    //     // append the child to the parent
-    // let SalmonCookies = document.createElement('div')
-    // let articleElement = document.createElement('article');
-    // SalmonCookies.appendChild(articleElement);
 
     let h2 = document.createElement('h2');
     parentElement.appendChild(h2);
@@ -256,12 +229,6 @@ let Lima = {
 
       render: function () {
 
-    //     // Create a new Element
-    //     // add a text to the new element
-    //     // append the child to the parent
-    // let SalmonCookies = document.createElement('div')
-    // let articleElement = document.createElement('article');
-    // SalmonCookies.appendChild(articleElement);
 
     let h2 = document.createElement('h2');
     parentElement.appendChild(h2);
