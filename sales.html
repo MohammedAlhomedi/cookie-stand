@@ -1,39 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
 
     <header>
-        <img src="https://www.msc.org/images/default-source/msc-english/content-banner/fish-to-eat/salmon.jpg?sfvrsn=f94256c7_4" alt="SalmonLogo" width="50px" height="50px">
+        <img src="https://www.msc.org/images/default-source/msc-english/content-banner/fish-to-eat/salmon.jpg?sfvrsn=f94256c7_4"
+            alt="SalmonLogo" width="50px" height="50px">
     </header>
 </head>
+
 <body>
-   
-    
-   <main>
-
-   <div id="salesData">
-
-   
-
-    </div>
-
-       
-    <table id="salesTable"></table>
 
 
-   </main>
-   
-   
-   
-   
+    <main>
+
+        <fieldset>
+            <legend>Add New Information </legend>
+
+            <form action="salesForm">
+                
+                <label for="countryNmae">Name of Country </label>
+                <input type="text"    name=" Country  "  id="country">
+
+                <label for="Max">Expected Max Customer </label>
+                <input type="text"   name="maxcustomer"  id="max">
+
+                <label for="Max">Expected Min Customer </label>
+                <input type="text"   name="mincustomer "  id="min">
+                
+
+                <button  type="submit" > Add New Country  </button>
+
+
+
+
+
+            </form>
+
+        </fieldset>
+
+        <div id="salesData">
+
+
+
+        </div>
+
+
+        <table id="salesTable"></table>
+
+
+    </main>
+
+
+
+
     <footer>
 
         <script src="app.js"></script>
     </footer>
 </body>
+
 </html>

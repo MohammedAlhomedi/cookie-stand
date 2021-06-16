@@ -7,6 +7,9 @@ let parentElement = document.getElementById('salesData');
 
 let salesTable = document.getElementById('salesTable');
 
+let salesForm = document.getElementById('salesForm');
+
+
 let hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12am', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 
 
@@ -144,8 +147,15 @@ function getCustomer(min, max) {
 
 
 
+function formsubmision(event) {
+
+    event.preventDefault();
+    let newCountry= event.target.countryname.value;
 
 
+}
+
+salesForm.addEventListener( 'submit' ,formsubmision);
 
 
 
