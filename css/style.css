@@ -1,0 +1,60 @@
+header {
+
+    background-color: antiquewhite;
+}
+
+main section h3 {
+
+    display: flex;
+    justify-content: center;
+}
+
+main section ul{
+
+display:flex; 
+/* justify-content: center; */
+margin: auto; 
+justify-content: space-between;
+
+}
+
+
+main div h5{
+
+    display: flex;
+    justify-content: left;
+}
+
+main div h2{
+
+    display: flex;
+    justify-content: center;
+}
+
+main div img {
+
+    
+    justify-content: center;
+}
+
+
+main :nth-child(2) img {
+
+    justify-content: center;
+}
+
+footer {
+    background-color: antiquewhite;
+}
+
+footer div h3  {
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+footer div h5 {
+display: flex;
+    justify-content: center;
+}
