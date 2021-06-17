@@ -1,20 +1,51 @@
+body {
+
+    margin: 0px;
+  background-color :aqua;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
 header {
 
     background-color: antiquewhite;
+    border: rgb(168, 45, 45);
+}
+
+
+header nav {float: right;
+}
+
+header nav ul li { 
+    display: inline-block;
+    padding: 10px;
+    padding-right:40px ;
+
+
 }
 
 main section h3 {
 
     display: flex;
     justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
 }
 
+.i div {
+
+    justify-content: right;
+}
 main section ul{
 
 display:flex; 
 /* justify-content: center; */
 margin: auto; 
 justify-content: space-between;
+padding: 20px;
+font-display:initial;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -23,13 +54,16 @@ main div h5{
 
     display: flex;
     justify-content: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main div h2{
 
     display: flex;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 main div img {
 
@@ -45,16 +79,22 @@ main :nth-child(2) img {
 
 footer {
     background-color: antiquewhite;
+    width: 100%;
+    height: auto;
 }
 
 footer div h3  {
 
     display: flex;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 
 }
 footer div h5 {
-display: flex;
+
+
+    display: flex;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
