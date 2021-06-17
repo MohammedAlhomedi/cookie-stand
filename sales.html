@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html lang="en">
 
 <head>
@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="style" href="./css/style.css" />
 
     <header>
         <img src="https://www.msc.org/images/default-source/msc-english/content-banner/fish-to-eat/salmon.jpg?sfvrsn=f94256c7_4"
             alt="SalmonLogo" width="50px" height="50px">
     </header>
 </head>
+
+
 
 <body>
 
@@ -22,16 +24,19 @@
         <fieldset>
             <legend>Add New Information </legend>
 
-            <form action="salesForm">
+            <form id="salesForm">
                 
-                <label for="countryNmae">Name of Country </label>
-                <input type="text"    name=" Country  "  id="country">
+                <label for="countryName">Name of Country </label>
+                <input type="text"    name="countryName"  id="countryName">
 
                 <label for="Max">Expected Max Customer </label>
-                <input type="text"   name="maxcustomer"  id="max">
+                <input type="number"   name="Max"  id="Max">
 
                 <label for="Max">Expected Min Customer </label>
-                <input type="text"   name="mincustomer "  id="min">
+                <input type="number"   name="mincustomer "  id="Max">
+                
+                <label for="Avarge">Averge  Customer </label>
+                <input type="number"   name="Avarge "  id="Avarge">
                 
 
                 <button  type="submit" > Add New Country  </button>

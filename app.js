@@ -7,7 +7,7 @@ let parentElement = document.getElementById('salesData');
 
 let salesTable = document.getElementById('salesTable');
 
-let salesForm = document.getElementById('salesForm');
+let salesForm= document.getElementById('salesForm');
 
 
 let hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12am', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
@@ -139,7 +139,6 @@ function makeTableFooter() {
 
 
 
-//helper function
 function getCustomer(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 
@@ -150,12 +149,12 @@ function getCustomer(min, max) {
 function formsubmision(event) {
 
     event.preventDefault();
-    let newCountry= event.target.countryname.value;
+    // let Country= event.target.Country.value;
 
 
 }
 
-salesForm.addEventListener( 'submit' ,formsubmision);
+salesForm.addEventListener( 'submit',formsubmision);
 
 
 
